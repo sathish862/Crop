@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".listView"></activity>
+        <activity android:name=".retriveDate" />
+        <activity android:name=".incomeinfo" />
+        <activity android:name=".retrive" />
+        <activity android:name=".december" />
+        <activity android:name=".november" />
+        <activity android:name=".october" />
+        <activity android:name=".september" />
+        <activity android:name=".august" />
+        <activity android:name=".july" />
+        <activity android:name=".june" />
+        <activity android:name=".may" />
+        <activity android:name=".april" />
+        <activity android:name=".march" />
+        <activity android:name=".february" />
+        <activity android:name=".january" />
+        <activity android:name=".Instruction" />
+        <activity android:name=".Cropcalender" />
+        <activity android:name=".profitLossActivity" />
+        <activity android:name=".weightActivity" />
+        <activity android:name=".incomeActivity" />
+        <activity android:name=".InvestmentActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

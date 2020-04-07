@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ccMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="@string/crop_calendar"
+        >
+    </item>
+
+    <item
+        android:id="@+id/instructionMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Instruction"
+        >
+    </item>
+
+    <item
+        android:id="@+id/settingsMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="@string/settings"
+        >
+    </item>
+
+    <item
+        android:id="@+id/logoutMenu"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/logout"
+        >
+    </item>
+
+    <item
+        android:id="@+id/refreshMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="@string/refresh"
+        >
+    </item>
+
+    <item
+        android:id="@+id/retriveMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="@string/retrive"
+        >
+    </item>
+
+    <item
+        android:id="@+id/sample"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="@string/sample"
+        >
+    </item>
+
+
+
+</menu>

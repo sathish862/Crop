@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">CROP</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="hello_world">Hello World!!!!!!</string>
+    <string name="no_of_attempts">No of attempts</string>
+    <string name="new_user_sign_up">New User? SIGN UP</string>
+    <string name="email_id">Email Id</string>
+    <string name="register">Register</string>
+    <string name="already_signed_in_login">Already Signed in? Login</string>
+    <string name="home_page">home page</string>
+    <string name="log_out">Log Out</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="home">HOME</string>
+
+    <string name="investment_text">Investment</string>
+    <string name="income_text">Income</string>
+    <string name="weight_text">Weight</string>
+    <string name="profitloss_text">Profit Loss</string>
+    <string name="investment_layout">INVESTMENT LAYOUT</string>
+    <string name="weight_layout">WEIGHT LAYOUT</string>
+    <string name="progit_or_loss_layout">PROGIT OR LOSS LAYOUT</string>
+    <string name="income_layout">INCOME LAYOUT</string>
+    <string name="select_item">Select Item</string>
+    <string name="amount">AMOUNT</string>
+    <string name="date">DATE</string>
+    <string name="add">ADD</string>
+    <string name="select_product">Select Product</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="add1">Add</string>
+    <string name="expenditure">Expenditure</string>
+    <string name="enter_kg">Enter KG</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="kg">kg</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="crop_calendar">Crop Calendar</string>
+    <string name="crop_calender">CROP CALENDER</string>
+
+    <array name="products">
+        <item>Urea</item>
+        <item>Potash</item>
+        <item>Phosphate</item>
+    </array>
+
+    <array name="eproducts">
+        <item>Nut</item>
+        <item>Residue</item>
+    </array>
+
+    <string name="link">
+        <a href="https://drive.google.com/open?id=1yWFsQgyJqHiok78QwcGGGxDvKf7NK2bO"> Click Here</a>
+    </string>
+
+    <string name="cultivation">
+        <a href="https://drive.google.com/open?id=1F5zbNmMxtmnBarH2BRN4QJH5zvwU_1pM"> Click Here</a>
+    </string>
+
+    <string name="fertilizer">
+        <a href="https://drive.google.com/open?id=1gTFDIPe-g1Uv9NAh0Pz-oAzqyrMPpJau"> Click Here</a>
+    </string>
+
+    <string name="mixedcrop">
+        <a href="https://drive.google.com/open?id=1SGJMH9vPaRGfpSiUB15d-NLFaBQOCXi0"> Click Here</a>
+    </string>
+
+    <string name="pestdisease">
+        <a href="https://drive.google.com/open?id=12nFoIEozDvgZgFX2_sV3F3_rmtsSDYsa"> Click Here</a>
+    </string>
+
+    <string name="disease">
+        <a href="https://drive.google.com/open?id=1pPiuTV-kJ0BPWQmWxtu4v40qsnz9ZKA_"> Click Here</a>
+    </string>
+
+    <string name="stages_of_growth">Stages of Growth</string>
+    <string name="_1_cultivation">1. Cultivation</string>
+    <string name="cultivation_fertilizer"><![CDATA[Cultivation & Fertilizer]]></string>
+    <string name="mixed_crops">Mixed Crops</string>
+    <string name="pest_diseases"><![CDATA[Pest & Diseases]]></string>
+    <string name="loosening_and_breaking_up_of_the_soil_the_soil_around_existing_plants_is_cultivated_to_destroy_weeds_and_promote_growth_by_increasing_soil_aeration_and_water_infiltration_click_below_to_know_more">Loosening and breaking up of the soil. The soil around existing plants is cultivated to destroy weeds and promote growth by increasing soil aeration and water infiltration. Click below to know more.</string>
+    <string name="the_long_pre_bearing_period_and_high_investment_and_low_returns_in_the_initial_years_are_the_main_reasons_which_make_it_essential_to_take_up_inter_mixed_cropping_in_arecanut_plantations_click_below_to_know_more">The long pre-bearing period and high investment and low returns in the initial years are the main reasons which make it essential to take up inter/mixed cropping in arecanut plantations. Click below to know more.</string>
+    <string name="the_major_pests_are_spindle_bug_mites_such_as_raoiella_indica_oligonychus_indicus_and_dolichotetranychus_root_grub_inflorescence_caterpillar_click_below_to_know_more">The major pests are spindle bug, mites such as Raoiella indica, Oligonychus indicus and Dolichotetranychus, root grub, inflorescence caterpillar. Click below to know more.</string>
+    <string name="investment">Investment</string>
+    <string name="button">Button</string>
+    <string name="_2_fertilizer">2. Fertilizer</string>
+    <string name="_3_mixed_crop">3. Mixed Crop</string>
+    <string name="_4_pest">4. Pest</string>
+    <string name="_5_disease">5. Disease</string>
+    <string name="areca_palm_is_prone_to_a_number_of_diseases_during_its_different_stages_of_development_forty_fungal_species_a_bacterium_and_an_algae_parasite_are_associated_with_areca_palm_yellow_leaf_disease_a_dreaded_disease_suspected_to_be_caused_by_phytoplasm_also_causes_losses_to_its_crop_click_below_to_know_more">Areca palm is prone to a number of diseases during its different stages of development. Forty fungal species, a bacterium and an algae parasite are associated with areca palm. Yellow leaf disease, a dreaded disease suspected to be caused by phytoplasm, also causes losses to its crop. Click below to know more</string>
+    <string name="a_fertilizer_dose_of_100g_n_40g_p20s_and_140g_k2_0_220g_of_urea_200g_of_rock_phosphate_and_230_g_of_muri_ate_of_potash_per_palm_per_year_is_recommended_along_with_12kg_of_green_leaf_and_12kg_compost_or_farm_yard_manure_click_below_to_know_more">A fertilizer dose of 100g N, 40g P20S and 140g K2 0 (220g of urea; 200g of rock phosphate and 230 g of muri ate of potash) per palm per year is recommended along with 12kg of green leaf and 12kg compost or farm yard manure. Click below to know more</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="in_order_to_know_more_about_the_plantation">In Order to Know more about the Plantation</string>
+    <string name="select_the_month_to_know_more_about_the_plantation">Select the month to know more about the Plantation</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="retrive">Retrive</string>
+    <string name="set_date">Set Date</string>
+    <string name="sample">Sample</string>
+
+
+</resources>

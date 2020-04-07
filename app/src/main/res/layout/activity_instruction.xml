@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instruction"
+    android:background="#3C3C3C">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="@string/_1_cultivation"
+            android:textAlignment="center"
+            android:textColor="#C1FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.115"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.044" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/cultivation"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/loosening_and_breaking_up_of_the_soil_the_soil_around_existing_plants_is_cultivated_to_destroy_weeds_and_promote_growth_by_increasing_soil_aeration_and_water_infiltration_click_below_to_know_more"
+            android:textAlignment="center"
+            android:textColor="#C1FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.032" />
+
+        <TextView
+            android:id="@+id/cultivation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/cultivation"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="@string/_2_fertilizer"
+            android:textAlignment="center"
+            android:textColor="#C1FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.115"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.044" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            app:srcCompat="@drawable/fertilizer"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/a_fertilizer_dose_of_100g_n_40g_p20s_and_140g_k2_0_220g_of_urea_200g_of_rock_phosphate_and_230_g_of_muri_ate_of_potash_per_palm_per_year_is_recommended_along_with_12kg_of_green_leaf_and_12kg_compost_or_farm_yard_manure_click_below_to_know_more"
+            android:textAlignment="center"
+            android:textColor="#C1FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.032" />
+
+        <TextView
+            android:id="@+id/fertilixerclick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/fertilizer"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_mixed_crop"
+            android:textAlignment="center"
+            android:textColor="#C1FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.057"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cultivation"
+            app:layout_constraintVertical_bias="0.029" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="252dp"
+            app:srcCompat="@drawable/mixedcrop"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/the_long_pre_bearing_period_and_high_investment_and_low_returns_in_the_initial_years_are_the_main_reasons_which_make_it_essential_to_take_up_inter_mixed_cropping_in_arecanut_plantations_click_below_to_know_more"
+            android:textAlignment="center"
+            android:textColor="#C1FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.41"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/mixedcrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/mixedcrop"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/_4_pest"
+            android:textAlignment="center"
+            android:textColor="#C1FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mixedcrop" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="251dp"
+            app:srcCompat="@drawable/disease"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/the_major_pests_are_spindle_bug_mites_such_as_raoiella_indica_oligonychus_indicus_and_dolichotetranychus_root_grub_inflorescence_caterpillar_click_below_to_know_more"
+            android:textAlignment="center"
+            android:textColor="#C1FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/pest"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/pestdisease"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            app:layout_constraintVertical_bias="0.406" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_disease"
+            android:textAlignment="center"
+            android:textColor="#C1FFFFFF"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="251dp"
+            app:srcCompat="@drawable/pest"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="175dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/areca_palm_is_prone_to_a_number_of_diseases_during_its_different_stages_of_development_forty_fungal_species_a_bacterium_and_an_algae_parasite_are_associated_with_areca_palm_yellow_leaf_disease_a_dreaded_disease_suspected_to_be_caused_by_phytoplasm_also_causes_losses_to_its_crop_click_below_to_know_more"
+            android:textAlignment="center"
+            android:textColor="#C1FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/diseaseclick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/disease"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+    </LinearLayout>
+</ScrollView>

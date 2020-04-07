@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "412748280251",
+    "firebase_url": "https://crop-43fb5.firebaseio.com",
+    "project_id": "crop-43fb5",
+    "storage_bucket": "crop-43fb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412748280251:android:43f63279944a9e2553d49e",
+        "android_client_info": {
+          "package_name": "com.example.crop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412748280251-rrts0tseg72k5brllt281ki2jghcki7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crop",
+            "certificate_hash": "7d41ce5f7a44f4c4a9a0a9d510fc2a857c3a8b53"
+          }
+        },
+        {
+          "client_id": "412748280251-aks3705pg0tgtp6nlahtv8qh0gtsfi3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4cpp2DMT4hYexAKwTx1C35iH7V-0ZUfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412748280251-aks3705pg0tgtp6nlahtv8qh0gtsfi3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

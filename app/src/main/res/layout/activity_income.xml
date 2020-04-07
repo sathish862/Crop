@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".incomeActivity">
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="175dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="28dp"
+        android:entries="@array/eproducts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/tvSelectProduct"
+        android:layout_width="175dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="204dp"
+        android:text="@string/select_product"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toStartOf="@+id/spinner1"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvEnterDate"
+        android:layout_width="175dp"
+        android:layout_height="36dp"
+        android:text="@string/enter_date"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvSelectProduct"
+        app:layout_constraintEnd_toStartOf="@+id/date"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <TextView
+        android:id="@+id/tvEnterKg"
+        android:layout_width="175dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/enter_weight"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEnterAmount2"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/tvEnterAmount2"
+        android:layout_width="175dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/enter_amount"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectProduct"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <Button
+        android:id="@+id/btnAddData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEnterKg"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.395"
+        app:layout_constraintStart_toEndOf="@+id/tvEnterAmount2"
+        app:layout_constraintTop_toBottomOf="@+id/spinner1"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="@string/kg"
+        android:inputType="number"
+        android:textAlignment="inherit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toEndOf="@+id/tvEnterKg"
+        app:layout_constraintTop_toBottomOf="@+id/etAmount"
+        app:layout_constraintVertical_bias="0.099"
+        android:autofillHints="" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
